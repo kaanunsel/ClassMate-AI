@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		787FD1D52D37D7AA0072EDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 787FD1BC2D37D7A90072EDAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 787FD1C32D37D7A90072EDAD;
+			remoteInfo = "ClassMate AI";
+		};
+		787FD1DF2D37D7AA0072EDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 787FD1BC2D37D7A90072EDAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 787FD1C32D37D7A90072EDAD;
+			remoteInfo = "ClassMate AI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		787FD1C42D37D7A90072EDAD /* ClassMate AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ClassMate AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		787FD1D42D37D7AA0072EDAD /* ClassMate AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ClassMate AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		787FD1DE2D37D7AA0072EDAD /* ClassMate AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ClassMate AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		787FD1C62D37D7A90072EDAD /* ClassMate AI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ClassMate AI";
+			sourceTree = "<group>";
+		};
+		787FD1D72D37D7AA0072EDAD /* ClassMate AITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ClassMate AITests";
+			sourceTree = "<group>";
+		};
+		787FD1E12D37D7AA0072EDAD /* ClassMate AIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ClassMate AIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		787FD1C12D37D7A90072EDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787FD1D12D37D7AA0072EDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787FD1DB2D37D7AA0072EDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		787FD1BB2D37D7A80072EDAD = {
+			isa = PBXGroup;
+			children = (
+				787FD1C62D37D7A90072EDAD /* ClassMate AI */,
+				787FD1D72D37D7AA0072EDAD /* ClassMate AITests */,
+				787FD1E12D37D7AA0072EDAD /* ClassMate AIUITests */,
+				787FD1C52D37D7A90072EDAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		787FD1C52D37D7A90072EDAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				787FD1C42D37D7A90072EDAD /* ClassMate AI.app */,
+				787FD1D42D37D7AA0072EDAD /* ClassMate AITests.xctest */,
+				787FD1DE2D37D7AA0072EDAD /* ClassMate AIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		787FD1C32D37D7A90072EDAD /* ClassMate AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787FD1E82D37D7AA0072EDAD /* Build configuration list for PBXNativeTarget "ClassMate AI" */;
+			buildPhases = (
+				787FD1C02D37D7A90072EDAD /* Sources */,
+				787FD1C12D37D7A90072EDAD /* Frameworks */,
+				787FD1C22D37D7A90072EDAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				787FD1C62D37D7A90072EDAD /* ClassMate AI */,
+			);
+			name = "ClassMate AI";
+			packageProductDependencies = (
+			);
+			productName = "ClassMate AI";
+			productReference = 787FD1C42D37D7A90072EDAD /* ClassMate AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		787FD1D32D37D7AA0072EDAD /* ClassMate AITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787FD1EB2D37D7AA0072EDAD /* Build configuration list for PBXNativeTarget "ClassMate AITests" */;
+			buildPhases = (
+				787FD1D02D37D7AA0072EDAD /* Sources */,
+				787FD1D12D37D7AA0072EDAD /* Frameworks */,
+				787FD1D22D37D7AA0072EDAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				787FD1D62D37D7AA0072EDAD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				787FD1D72D37D7AA0072EDAD /* ClassMate AITests */,
+			);
+			name = "ClassMate AITests";
+			packageProductDependencies = (
+			);
+			productName = "ClassMate AITests";
+			productReference = 787FD1D42D37D7AA0072EDAD /* ClassMate AITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		787FD1DD2D37D7AA0072EDAD /* ClassMate AIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787FD1EE2D37D7AA0072EDAD /* Build configuration list for PBXNativeTarget "ClassMate AIUITests" */;
+			buildPhases = (
+				787FD1DA2D37D7AA0072EDAD /* Sources */,
+				787FD1DB2D37D7AA0072EDAD /* Frameworks */,
+				787FD1DC2D37D7AA0072EDAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				787FD1E02D37D7AA0072EDAD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				787FD1E12D37D7AA0072EDAD /* ClassMate AIUITests */,
+			);
+			name = "ClassMate AIUITests";
+			packageProductDependencies = (
+			);
+			productName = "ClassMate AIUITests";
+			productReference = 787FD1DE2D37D7AA0072EDAD /* ClassMate AIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		787FD1BC2D37D7A90072EDAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					787FD1C32D37D7A90072EDAD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					787FD1D32D37D7AA0072EDAD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 787FD1C32D37D7A90072EDAD;
+					};
+					787FD1DD2D37D7AA0072EDAD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 787FD1C32D37D7A90072EDAD;
+					};
+				};
+			};
+			buildConfigurationList = 787FD1BF2D37D7A90072EDAD /* Build configuration list for PBXProject "ClassMate AI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 787FD1BB2D37D7A80072EDAD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 787FD1C52D37D7A90072EDAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				787FD1C32D37D7A90072EDAD /* ClassMate AI */,
+				787FD1D32D37D7AA0072EDAD /* ClassMate AITests */,
+				787FD1DD2D37D7AA0072EDAD /* ClassMate AIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		787FD1C22D37D7A90072EDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787FD1D22D37D7AA0072EDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787FD1DC2D37D7AA0072EDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		787FD1C02D37D7A90072EDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787FD1D02D37D7AA0072EDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787FD1DA2D37D7AA0072EDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		787FD1D62D37D7AA0072EDAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 787FD1C32D37D7A90072EDAD /* ClassMate AI */;
+			targetProxy = 787FD1D52D37D7AA0072EDAD /* PBXContainerItemProxy */;
+		};
+		787FD1E02D37D7AA0072EDAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 787FD1C32D37D7A90072EDAD /* ClassMate AI */;
+			targetProxy = 787FD1DF2D37D7AA0072EDAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		787FD1E62D37D7AA0072EDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		787FD1E72D37D7AA0072EDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		787FD1E92D37D7AA0072EDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClassMate AI/Preview Content\"";
+				DEVELOPMENT_TEAM = N7X33K7TJD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pangea.ClassMate-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		787FD1EA2D37D7AA0072EDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClassMate AI/Preview Content\"";
+				DEVELOPMENT_TEAM = N7X33K7TJD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pangea.ClassMate-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		787FD1EC2D37D7AA0072EDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7X33K7TJD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pangea.ClassMate-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassMate AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClassMate AI";
+			};
+			name = Debug;
+		};
+		787FD1ED2D37D7AA0072EDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7X33K7TJD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pangea.ClassMate-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassMate AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClassMate AI";
+			};
+			name = Release;
+		};
+		787FD1EF2D37D7AA0072EDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7X33K7TJD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pangea.ClassMate-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ClassMate AI";
+			};
+			name = Debug;
+		};
+		787FD1F02D37D7AA0072EDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7X33K7TJD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pangea.ClassMate-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ClassMate AI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		787FD1BF2D37D7A90072EDAD /* Build configuration list for PBXProject "ClassMate AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787FD1E62D37D7AA0072EDAD /* Debug */,
+				787FD1E72D37D7AA0072EDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		787FD1E82D37D7AA0072EDAD /* Build configuration list for PBXNativeTarget "ClassMate AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787FD1E92D37D7AA0072EDAD /* Debug */,
+				787FD1EA2D37D7AA0072EDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		787FD1EB2D37D7AA0072EDAD /* Build configuration list for PBXNativeTarget "ClassMate AITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787FD1EC2D37D7AA0072EDAD /* Debug */,
+				787FD1ED2D37D7AA0072EDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		787FD1EE2D37D7AA0072EDAD /* Build configuration list for PBXNativeTarget "ClassMate AIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787FD1EF2D37D7AA0072EDAD /* Debug */,
+				787FD1F02D37D7AA0072EDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 787FD1BC2D37D7A90072EDAD /* Project object */;
+}
