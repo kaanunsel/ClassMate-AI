@@ -1,0 +1,7 @@
+Pods/
+.DS_Store
+xcuserdata/
+DerivedData/
+.idea/
+ClassMateAI.xcworkspace
+*.key
